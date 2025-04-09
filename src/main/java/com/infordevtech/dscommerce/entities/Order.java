@@ -24,7 +24,7 @@ public class Order {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long id;
+	private Long id;
 	
 
     @Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")

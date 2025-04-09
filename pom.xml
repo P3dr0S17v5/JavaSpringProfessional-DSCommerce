@@ -8,7 +8,7 @@
 		<version>3.4.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.devsuperior</groupId>
+	<groupId>com.infordevtech</groupId>
 	<artifactId>aula</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>aula</name>
