@@ -1,5 +1,7 @@
 package com.infordevtech.dscommerce.dto;
 
+import com.infordevtech.dscommerce.entities.Product;
+
 public class ProductDTO {
 	
 	private Long id;	
@@ -10,7 +12,8 @@ public class ProductDTO {
 	
 	public ProductDTO() {
 	}
-
+	
+	/*
 	public ProductDTO(Long id, String name, String description, Double price, String imgUrl) {
 		this.id = id;
 		this.name = name;
@@ -18,8 +21,8 @@ public class ProductDTO {
 		this.price = price;
 		this.imgUrl = imgUrl;
 	}
+	*/
 	
-	/*
 	public ProductDTO(Product entity) {
 		id = entity.getId();
 		name = entity.getName();
@@ -27,7 +30,7 @@ public class ProductDTO {
 		price = entity.getPrice();
 		imgUrl = entity.getImgUrl();
 	}
-	*/
+	
 
 	public Long getId() {
 		return id;
